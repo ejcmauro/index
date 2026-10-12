@@ -1,0 +1,607 @@
+html {scroll-behavior: smooth;}
+
+.main-wrapper {
+padding: 2em;
+overflow-x: hidden;
+width: 100vw;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {
+font-family: "Chivo mono", monospace;
+font-weight:100;
+background-color: rgba(51, 14, 31);
+/* background-image: url("https://xyzko.nekoweb.org/images/background.gif"); */
+background-size: 3px 3px; 
+background-attachment: fixed;
+/* color: #e8154e; */
+color:#e81551;
+margin: 0;
+box-sizing: border-box;
+font-size: 10px;
+font-style: normal;
+letter-spacing: 0; 
+overflow-x: hidden;
+}
+
+/* Ordem de estilo de link recomendada (L-V-H-A-F) */
+a:link {
+text-decoration: underline #e8154e solid 1px;
+color: #e8154e;
+text-underline-offset: 2px;
+}
+
+a:visited {
+text-decoration: none;
+color: #9e3f42;
+text-shadow: 6px 6px 8px rgb(137, 137, 228);
+}
+
+a:hover {
+text-decoration: none;
+color: #54a6d7;
+text-shadow: 4px 4px 1px rgba(1, 1, 100, 1),
+8px 8px 1px rgba(1, 1, 100, 1);
+cursor: pointer;
+}
+
+.capa a {
+color: #ffffff;
+text-decoration: underline;
+text-underline-offset: 3px;
+transition: all 0.2s ease;
+}
+
+
+.capa a:hover {
+    
+color: #54a6d7;
+text-shadow: 1px 1px 1px rgba(1, 1, 100, 1),
+3px 3px 1px rgba(1, 1, 100, 1);
+text-decoration-color: #54a6d7;
+text-underline-offset: 3px;
+
+}
+
+a:active {
+color: #ff6300;
+text-shadow: 3px 3px 1px rgb(152, 0, 0);
+}
+
+a:focus {
+outline: 2px solid #00ff00;
+}
+
+img {
+max-width: 100%; height: auto; margin:0;
+}
+
+p {
+font-family: "Maria", sans-serif;
+line-height: 1.4em;
+font-style: normal;
+margin: 7px 0 7px 0;
+}
+
+ul li {
+margin: 8px;
+}
+
+hr {
+border: none;
+height: 1px;
+background-color: #5f2232;
+margin: 10px auto;
+}
+
+h4 {
+font-family: 'Chivo', sans-serif;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0;
+line-height: 1.3em;
+}
+
+h3 {
+font-size: 10px;
+letter-spacing: 1px;
+line-height: 1.2em;
+font-weight: 500;
+}
+
+h2 {
+margin:0;
+
+}
+
+h1 {
+/* font-family: 'Maria', sans-serif; */
+margin: 0.5em 0;
+padding:0;
+font-size: 80px;
+line-height:1em;
+letter-spacing: 0;
+
+}
+
+
+/*JOLLY ROGER*/
+
+.jollyroger a {
+    display: inline-block;
+    display: inline-block;
+transition: all 0.2s ease; 
+}
+.jollyroger a:hover {transform: translateY(4px)}
+
+.jollyroger {
+margin:0;
+padding:1.4em 3em 0.5em 3em;
+font-family: "Maria", sans-serif;
+letter-spacing: 2px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 13px;
+filter: drop-shadow(13px 13px 1px black);
+}
+
+.jollyroger-section {
+    text-shadow:
+1px 1px 1px black,
+2px 2px 1px black,
+3px 3px 1px black,
+4px 4px 1px black,
+5px 5px 1px black,
+6px 6px 1px black,
+6px 6px 1px black,
+7px 7px 1px black,
+8px 8px 1px black,
+9px 9px 1px black;
+}
+
+.jollyroger-double {
+
+margin: 0;
+font-family: "Maria", sans-serif;
+letter-spacing: 38px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.2em;
+filter: drop-shadow(13px 13px 1px black);
+}
+
+.asses {
+font-family: 'Lexipa', sans-serif;
+font-size:3em;
+line-height:1em;
+}
+
+/*JOLLY ROGER*/
+
+span#makethelogobigger {
+font-size:100px;
+line-height:97px;
+/*color:#ff154c;*/
+}
+
+/*BACKGROUND*/
+
+.adivcalledapple {
+margin: 0 auto;
+max-width:40rem;
+padding: 5px;
+line-height: 4.2em;
+/*color: #f6275f;*/
+background-color: #330e1f;
+}
+
+/*CAPA*/
+
+.capa {
+padding:1.4em 3em 0.5em 3em;
+/* letter-spacing:20px; */
+text-shadow:
+1px 1px 1px black,
+2px 2px 1px black,
+3px 3px 1px black,
+4px 4px 1px black,
+5px 5px 1px black,
+6px 6px 1px black,
+6px 6px 1px black,
+7px 7px 1px black,
+8px 8px 1px black,
+9px 9px 1px black,
+10px 10px 1px black,
+11px 11px 1px black,
+12px 12px 1px black,
+13px 13px 1px black,
+14px 14px 1px black,
+15px 15px 1px black,
+16px 16px 1px black,
+17px 17px 1px black,
+18px 18px 1px black;
+z-index: 4000;
+}
+
+.bio {
+    color: white;
+    padding:40px;
+}
+
+/*ARTIGOS*/
+
+
+.number {
+text-align:center;
+padding-bottom:5px;
+padding-top:7px;
+letter-spacing:7px;
+margin: auto;
+border-bottom: 1px solid black;
+font-family: 'Syne Mono', monospace;
+font-size:10px;
+color: #ffffff;
+color: white;
+text-shadow:
+1px 1px 3px #290817,
+2px 2px 3px #290817,
+3px 3px 3px #290817,
+4px 4px 3px #290817,
+5px 5px 3px #290817,
+6px 6px 3px #290817,
+7px 7px 3px #290817,
+8px 8px 3px #290817,
+9px 9px 0 1 #290817;
+}
+
+.click {
+font-size:0.5em;
+}
+
+.click a {color:rgb(220, 32, 98);
+    display: inline-block;
+    display: inline-block;
+transition: all 0.2s ease; 
+}
+.click a:hover {transform: translateY(2px)}
+
+.subtitulo {
+font-size:30px;
+line-height:1em;
+letter-spacing: 0;
+margin: 20px auto;
+}
+
+.article-background {
+box-sizing: border-box;
+border: 1px solid #000000;
+padding:2em 4em;
+box-shadow: 
+-2px -2px 6px #290817,
+1px 1px 3px #290817,
+2px 2px 3px #290817,
+3px 3px 3px #290817,
+4px 4px 3px #290817,
+5px 5px 3px #290817,
+6px 6px 3px #290817,
+7px 7px 3px #290817,
+8px 8px 3px #290817,
+9px 9px 0 0 #290817,
+10px 10px 0 0 #290817,
+11px 11px 0 0 #290817,
+12px 12px 0 0 #290817,
+13px 13px 0 0 #290817,
+14px 14px 0 0 #290817,
+15px 15px 0 #290817,
+16px 16px 0 0 #290817,
+17px 17px 0 0 #290817,
+18px 18px 0 0 #290817,
+19px 19px 0 0 #290817,
+20px 20px 0 0 #290817;
+}
+
+.article-background:hover {
+padding:2em 4em;
+background-color: rgba(255, 0, 98, 0.2);
+box-shadow:
+-2px -2px 6px #290817,
+1px 1px 0 0 #910C40,
+2px 2px 0 0 #910C40,
+3px 3px 0 0 #910C40,
+4px 4px 0 0 #910C40,
+5px 5px 0 0 #910C40,
+6px 6px 0 0 #910C40,
+7px 7px 0 0 #910C40,
+8px 8px 0 0 #910C40,
+9px 9px 0 0 #910C40,
+10px 10px 0 0 #910C40,
+11px 11px 0 0 #910C40,
+12px 12px 0 0 #910C40,
+13px 13px 0 0 #910C40,
+14px 14px 0 0 #910C40,
+15px 15px 0 0 #910C40,
+16px 16px 0 0 #910C40,
+17px 17px 0 0 #910C40,
+18px 18px 0 0 #910C40,
+19px 19px 0 0 #910C40,
+20px 20px 0 0 #910C40;
+    
+}
+
+.article-title {
+margin: 0;
+line-height: 0.9em;
+letter-spacing:-1px;
+font-size: 5em;
+text-shadow: 
+3px 3px 1px black,
+4px 4px 1px black,
+5px 5px 1px black,
+6px 6px 1px black;
+}
+
+.article-excerpt {
+margin: 0;
+padding:1em 0;
+font-size: 1.3rem;
+line-height: 1.5rem;
+letter-spacing:0;
+}
+
+.poesias {
+text-align:center;
+font-size:0.8em;
+color:#910C40;
+margin: 10px; auto;
+}
+
+/*END ARTICLES*/
+
+
+.expediente {
+margin:2.5em;
+font-size:1em;
+}
+
+
+.seed {
+position: relative;
+width:135px;
+margin:0 auto 1em;
+background-color: rgb(74, 0, 17);
+box-shadow: 3px 3px 0 #890034, 3px 3px 0 #ff0000;
+}
+
+.ads {
+margin: 10px;
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;
+gap: 10px;
+
+}
+
+.adverse {
+
+margin:0 auto;
+padding:1.3em 0;
+text-align: center;
+/*border-bottom: 1px solid #FF8AB7;*/
+}
+
+.adverse img {
+width: 100px;
+height: auto;
+margin: 0;
+padding:3px;
+box-shadow: 3px 3px 0 #FF8AB7;
+}
+
+.adverse img:hover {
+width: 101px;
+height: auto;
+box-shadow: 1px 1px 0 #910C40,
+-1px -1px 0 #910C40,
+1px 1px 0 black;
+
+}
+
+
+
+.made-with-macinto {
+font-family: 'Monaco', 'Courier New', monospace;
+font-size: 18px;
+text-align: center;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-image: url("images/system8.jpg");
+background-position: 1px -11px;
+box-shadow: 1px 1px 2px #000000,
+2px 2px 2px #000000,
+3px 3px 2px #000000,
+4px 4px 2px #000000,
+5px 5px 2px #000000,
+6px 6px 2px #000000,
+7px 7px 2px #000000,
+8px 8px 2px #000000,
+9px 9px 2px #000000,
+10px 10px 2px #000000;
+}
+.made-with-macinto:hover{
+font-family: 'Monaco', 'Courier New', monospace;
+font-size: 18px;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-image: url("images/system8.jpg");
+background-color: transparent;
+background-position: 1px -10px;
+box-shadow: 1px 1px 2px #910C40,
+2px 2px 1px #910C40,
+3px 3px 1px #910C40,
+4px 4px 1px #910C40,
+5px 5px 1px #910C40,
+6px 6px 1px #910C40,
+7px 7px 1px #910C40,
+8px 8px 1px #910C40,
+9px 9px 1px #910C40,
+10px 10px 1px #910C40;
+}
+.made-with-macinto7 {
+font-family: 'Monaco', 'Courier New', monospace;
+font-size: 18px;
+text-align: center;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-image: url("images/system7.png");
+background-position: 110px 139px;
+background-size: 54%;
+box-shadow: 1px 1px 2px #000000,
+2px 2px 2px #000000,
+3px 3px 2px #000000,
+4px 4px 2px #000000,
+5px 5px 2px #000000,
+6px 6px 2px #000000,
+7px 7px 2px #000000,
+8px 8px 2px #000000,
+9px 9px 2px #000000,
+10px 10px 2px #000000;
+}
+.made-with-macinto7:hover{
+font-family: 'Monaco', 'Courier New', monospace;
+font-size: 18px;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-image: url("images/system7.png");
+background-color: transparent;
+background-position: -1px -1px;
+background-size: 54%;
+box-shadow: 
+1px 1px 1px #910C40,
+2px 2px 1px #910C40,
+3px 3px 1px #910C40,
+4px 4px 1px #910C40,
+5px 5px 1px #910C40,
+6px 6px 1px #910C40,
+7px 7px 1px #910C40,
+8px 8px 1px #910C40,
+9px 9px 1px #910C40,
+10px 10px 1px #910C40;
+
+
+}
+
+.phebo {
+background-image: url("images/phebo-2.png");
+background-size: 143px;
+font-family: 'Monaco', 'Courier New', monospace;
+font-size: 18px;
+text-align: center;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-color: #550000;
+box-shadow: 1px 1px 2px #000000,
+2px 2px 2px #000000,
+3px 3px 2px #000000,
+4px 4px 2px #000000,
+5px 5px 2px #000000,
+6px 6px 2px #000000,
+7px 7px 2px #000000,
+8px 8px 2px #000000,
+9px 9px 2px #000000,
+10px 10px 2px #000000;
+}
+.phebo:hover {
+font-size: 18px;
+text-align: center;
+margin:0 auto;
+height:5.7em;
+max-width:100%;
+background-image: url("images/phebo.png");
+background-size: 235px 100%;
+box-shadow: 
+1px 1px 1px #910C40,
+2px 2px 1px #910C40,
+3px 3px 1px #910C40,
+4px 4px 1px #910C40,
+5px 5px 1px #910C40,
+6px 6px 1px #910C40,
+7px 7px 1px #910C40,
+8px 8px 1px #910C40,
+9px 9px 1px #910C40,
+10px 10px 1px #910C40;
+
+}
+
+.perfumaria {
+margin: 0 auto;
+max-width:100%;
+border: 1px solid black;
+box-shadow: 0 0 5px rgba(200,200,300,1), 3px 3px 8px rgba(200,200,300,1),
+7px 12px 2px black,
+7px 12px 2px black;
+
+}
+
+@keyframes mover-gradiente {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+.harpsichord {
+background-image: linear-gradient(
+190deg,
+#ff0080,
+#ff8c00,
+#40e0d0,
+#00ffff
+);
+
+/* Define o tamanho do fundo para que seja maior que a div */
+background-size: 200% 200%;
+
+/* Aplica a animação, com duração de 8 segundos e repetição infinita */
+animation: mover-gradiente 8s ease-in-out infinite;
+
+/* Estilos adicionais para visualização */
+width: 100%;
+height: 138px;
+}
+
+.glowing {
+margin: -1em;
+border-bottom: 1px solid black;
+font-family: 'Syne Mono', monospace;
+font-size:12px;
+text-align: left;
+color: #8cf5ff;
+text-shadow:
+0 0 8px #fff,
+0 0 3px #fff,
+0 0 1px #08f,
+0 0 10px #08f,
+0 0 10px #8cf5ff;
+}
+
+html {
+overflow-x: hidden !important;
+}
