@@ -1,2 +1,2 @@
-# refactored-train
-Claude Assisted Diagrams 2026
+# index
+first page of the first website
